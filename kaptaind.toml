@@ -1,0 +1,28 @@
+# kaptaind house profile (generated during drift sync)
+
+[trust]
+execution = "trusted"
+
+[watch]
+path = "."
+recursive = true
+ignore_file = ".kaptainignore"
+
+[cluster]
+window = 5
+
+[push]
+enabled = true
+branch = "main"
+
+[capabilities]
+network_push = true
+
+[operation]
+mode = "actuate"
+
+[ratelimit]
+min_commit_interval = 10
+
+[staging]
+mode = "all"
